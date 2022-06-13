@@ -1,0 +1,69 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": ["Hey there!", "Hello how can I help you"],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "will", "be", "duration", "of", "the", "course"],
+    "bot_response": "The course duration will be for about 8 to 12 weeks.",
+    "required_words": ["duration", "course"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "who", "can", "register", "for", "course"],
+    "bot_response": "NPTEL online courses are open to everyone. The courses in programming, data structures and algorithms are aimed at undergraduate college students (any engineering or science stream) in their 2nd year or above.",
+    "required_words": ["register", "course"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Will"," the","same", "course", "be", "offered", "again", "in", "the", "future", "?"],
+    "bot_response": "Yes, we have plans to offer the course again. More details will be available later on in the portal",
+    "required_words": ["same", "course", "offered", "again", "future"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can", "I", "take", "a", "course", "more", "than", "once", "?"],
+    "bot_response": "Yes, we have plans to offer the course again. More details will be available later on in the portal",
+    "required_words": ["course", "more", "once"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "am" , "not", "free", "during", "the", "dates", "of", "the", "certification", "exam"],
+    "bot_response": "The certification exams are on Saturday and Sunday. We do hope you can make it on one of the four days. If it is not possible, you will have to appear for the exams offered in the future.",
+    "required_words": ["free", "dates", "certification", "availble", "exam"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["What", " is", " the", " fee", " for", " the ", "certification", " exam", "?"],
+    "bot_response": "The fee will be posted on the portal prominently. We expect it to be around Rs. 2000.",
+    "required_words": ["fee", "certification", "exam"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Can"," I", " access", " the", " course", " content", " after", " a ", "course", " ends", "?"],
+    "bot_response": "Course lectures will be made available online even after the course ends",
+    "required_words": ["lectures", "videos", "online", "after", "course", "ends"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["Are", " the", "classes", " free", "?"],
+    "bot_response": "Yes. Access to the online course resources is free. A nominal fee is applicable if you want to take the in-person proctored online examination",
+    "required_words": ["classes", "course", "free"]
+  }
+
+]
